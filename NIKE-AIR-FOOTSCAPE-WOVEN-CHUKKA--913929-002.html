@@ -113,14 +113,46 @@
 		color: white;
 		background-color: #888888;
 	}
-	#inline div{display: inline;}
-	@media screen and (max-width:600px){
+		#inline div{display: inline;}
+		.dropdown-menu {
+			position:fixed;
+			z-index: 5;
+		    left:0;
+		    top:-50px;
+		    width:280px;margin-left:auto;margin-right:auto;
+		    font-family:Yu Gothic;
+		   	color: #888888;
+		    font-size: 16px;
+		    box-shadow:10px 0 50px 0px #CCCCCC;
+		}
+		.dropdown-menu > ul {
+			position: fixed;
+			top:0;
+			visibility: hidden;
+			transition: visibility 0.5s;
+			opacity: 0;
+		}
+		.dropdown-menu > span:focus ~ ul {
+			position: fixed;
+			top:0;
+			visibility: visible;
+			opacity: 1;
+			background-color: white;
+			box-shadow:10px 10px 50px 0px #CCCCCC;
+			width: 280px;
+		}
+		a {text-decoration:none;color:#888888;}
+		ul{list-style-type: none;}
+	@media screen and (max-width:1367px){
 		.head{width:100%;}
-		.cont{width:60%;top:92px;}
-		.leftbar{width:40%;}
+		.cont{display:flex; align-items:center;justify-content:center;flex-direction:column;left:0;right:0;top:192px;padding:10px;}
+		.left-top{z-index: 5; padding-top: 0px;position:absolute;}
+		.leftbar{display: none;}
 		.ad{display: none;}
 		.box{width: 280px;}
+		.dropdown-menu {display: block;}
 	}
+	
 	</style>
 </head>
 <body style="margin-top:0;background-color:#FFFFFF">
