@@ -3,8 +3,23 @@
 <head>
 	<link rel="shortcut icon" href="PONO_official_black_logo.jpg">
 	<script type="text/javascript">
-		function one(){   		    document.getElementById("image").src = 'products/nike/boy clothes/NIKE JUST DO IT TEE 黑紅白 707361-010.jpg';
+		function one(){   		   
+			 document.getElementById("image").src = 'https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/20597002_168354423713245_3791080640622498855_n.jpg?oh=eb7da69775f7198bb0ef2e64c248543d&oe=59F2953F';
 		    document.getElementById("detail1").style="border: 5px solid #888888;opacity: .5;";
+		    document.getElementById("detail2").style="border: 0px;opacity: 1;";
+			document.getElementById("detail3").style="border: 0px;opacity: 1;";
+		}
+		function two(){ 
+		    document.getElementById("image").src = 'https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/20597401_168354470379907_346622536948267914_n.jpg?oh=7bf4ae6211b3b459dbac716eb3091ffa&oe=5A32ABA1'; 
+		   	document.getElementById("detail1").style="border: 0px;opacity: 1;";
+		    document.getElementById("detail2").style="border: 5px solid #888888;opacity: .5;";
+			document.getElementById("detail3").style="border: 0px;opacity: 1;";
+		}
+		function three(){  
+		    document.getElementById("image").src = 'products/nike/boy clothes/NIKE JUST DO IT TEE 黑紅白 707361-010.jpg';  
+			document.getElementById("detail1").style="border: 0px;opacity: 1;";
+		    document.getElementById("detail2").style="border: 0px;opacity: 1;";
+			document.getElementById("detail3").style="border: 5px solid #888888;opacity: .5;";
 		}
 	</script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -247,9 +262,11 @@
 		<div>所有商品 / NIKE / JUST DO IT TEE 黑紅白 707361-010 </div>
 
 		<div class="box">
-			<img id="image" src="products/nike/boy clothes/NIKE JUST DO IT TEE 黑紅白 707361-010.jpg" width="100%" height="100%">
+			<img id="image" src="https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/20597002_168354423713245_3791080640622498855_n.jpg?oh=eb7da69775f7198bb0ef2e64c248543d&oe=59F2953F" width="100%" height="100%">
 			　<p/>
-			<span class="post"><img id="detail1" onclick='one()' src="products/nike/boy clothes/NIKE JUST DO IT TEE 黑紅白 707361-010.jpg" width="15%" height="15%" style="border: 5px solid #888888;opacity: .5;">
+			<span class="post"><img id="detail1" onclick='one()' src="https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/20597002_168354423713245_3791080640622498855_n.jpg?oh=eb7da69775f7198bb0ef2e64c248543d&oe=59F2953F" width="15%" height="15%" style="border: 5px solid #888888;opacity: .5;">
+			<img id="detail2" onclick='two()' src="https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/20597401_168354470379907_346622536948267914_n.jpg?oh=7bf4ae6211b3b459dbac716eb3091ffa&oe=5A32ABA1" width="15%" height="15%">
+			<img id="detail3" onclick='three()' src="products/nike/boy clothes/NIKE JUST DO IT TEE 黑紅白 707361-010.jpg" width="15%" height="15%">
 </span>
 			
 		</div>

@@ -2,6 +2,18 @@
 <html>
 <head>
 	<link rel="shortcut icon" href="PONO_official_black_logo.jpg">
+	<script type="text/javascript">
+		function one(){   		    document.getElementById("image").src = 'products/drmartens/DR. MARTENS 1461 SMOOTH.jpg';
+		    document.getElementById("detail1").style="border: 5px solid #888888;opacity: .5;";
+		    document.getElementById("detail2").style="border: 0px;opacity: 1;";
+		}
+		function two(){ 
+		    document.getElementById("image").src = 'https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/20597100_168207207061300_8307320264120020389_n.jpg?oh=6970b1128d463e98826c8344835d156c&oe=5A29BBB8'; 
+		   	document.getElementById("detail1").style="border: 0px;opacity: 1;";
+		    document.getElementById("detail2").style="border: 5px solid #888888;opacity: .5;";
+		}
+
+	</script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
@@ -244,7 +256,8 @@
 		<div class="box">
 			<img id="image" src="products/drmartens/DR. MARTENS 1461 SMOOTH.jpg" width="100%" height="100%">
 			　<p/>
-			<span class="post"><img id="detail1" onclick='one()' src="products/drmartens/DR. MARTENS 1461 SMOOTH.jpg" width="15%" height="15%" style="border: 5px solid #888888;opacity: .5;"></span>
+			<span class="post"><img id="detail1" onclick='one()' src="products/drmartens/DR. MARTENS 1461 SMOOTH.jpg" width="15%" height="15%" style="border: 5px solid #888888;opacity: .5;">
+						<img id="detail2" onclick='two()' src="https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/20597100_168207207061300_8307320264120020389_n.jpg?oh=6970b1128d463e98826c8344835d156c&oe=5A29BBB8" width="15%" height="15%"></span>
 			
 		</div>
 		<div class="box" style="font-size: 24px">
