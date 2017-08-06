@@ -2,6 +2,26 @@
 <html>
 <head>
 	<link rel="shortcut icon" href="PONO_official_black_logo.jpg">
+		<script type="text/javascript">
+		function one(){
+			document.getElementById("image").src = 'products/RIPNDIP LORDNERMAL SLIDES.jpg';
+		    document.getElementById("detail1").style="border: 5px solid #888888;opacity: .5;";
+		    document.getElementById("detail2").style="border: 0px;opacity: 1;";
+			document.getElementById("detail3").style="border: 0px;opacity: 1;";
+		}
+		function two(){ 
+		    document.getElementById("image").src = 'https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/20597153_168501657031855_865342763021025204_n.jpg?oh=64a9040cdb58759252f40e373f51c4b7&oe=59FC1D34'; 
+		   	document.getElementById("detail1").style="border: 0px;opacity: 1;";
+		    document.getElementById("detail2").style="border: 5px solid #888888;opacity: .5;";
+			document.getElementById("detail3").style="border: 0px;opacity: 1;";
+		}
+		function three(){  
+		    document.getElementById("image").src = 'https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/20604325_168501663698521_6324979285014932031_n.jpg?oh=12701b9c97f886035ad6d0d36dcb141e&oe=5A30A0C7';  
+			document.getElementById("detail1").style="border: 0px;opacity: 1;";
+		    document.getElementById("detail2").style="border: 0px;opacity: 1;";
+			document.getElementById("detail3").style="border: 5px solid #888888;opacity: .5;";
+		}
+	</script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
@@ -244,7 +264,10 @@
 		<div class="box">
 			<img id="image" src="products/RIPNDIP LORDNERMAL SLIDES.jpg" width="100%" height="100%">
 			　<p/>
-			<span class="post"><img id="detail1" onclick='one()' src="products/RIPNDIP LORDNERMAL SLIDES.jpg" width="15%" height="15%" style="border: 5px solid #888888;opacity: .5;"></span>
+			<span class="post"><img id="detail1" onclick='one()' src="products/RIPNDIP LORDNERMAL SLIDES.jpg" width="15%" height="15%" style="border: 5px solid #888888;opacity: .5;">
+				<img id="detail2" onclick='two()' src="https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/20597153_168501657031855_865342763021025204_n.jpg?oh=64a9040cdb58759252f40e373f51c4b7&oe=59FC1D34" width="15%" height="15%">
+				<img id="detail3" onclick='three()' src="https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/20604325_168501663698521_6324979285014932031_n.jpg?oh=12701b9c97f886035ad6d0d36dcb141e&oe=5A30A0C7" width="15%" height="15%">
+			</span>
 			
 		</div>
 		<div class="box" style="font-size: 24px">
